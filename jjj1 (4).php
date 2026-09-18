@@ -1,6 +1,6 @@
 <?php
 $admin = "1800292529";
-$token = "7406057177:AAE9dAWueQJX-wLevY9mlYZKQwZEx3HVVjU";
+$token = "8800094266:AAEWVu3_OCW0vVOgqrLSbv05brP8IaGqMeI";
  function bot($method,$datas=[]){
     $yhya = http_build_query($datas);
         $url = "https://api.telegram.org/bot".$GLOBALS['token']."/".$method."?$yhya";
